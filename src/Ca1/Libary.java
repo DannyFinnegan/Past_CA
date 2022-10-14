@@ -55,6 +55,6 @@ public class Libary {
     }
 
     public String toString() {
-        return "Name= " + Name + "\n" + "Address= " + Address + "\n" + "Librarian= " + Librarian + "\n" + "numberEmployees= " + numberEmployees;
+        return "\nName= " + Name + "\n" + "Address= " + Address + "\n" + "Librarian= " + Librarian + "\n" + "Number of Employees= " + numberEmployees;
     }
 }

@@ -9,9 +9,13 @@ public class TestLibary {
         String output = "";
         Libary L1 = new Libary();
         Libary L2 = new Libary("Kerry Library","Killarney ","Nathans Mom",12);
+        Book B1 = new Book();
+        Book B2 = new Book("IS2264520","Harry Potter","Random",18);
+        Author A1=new Author();
+        Author A2=new Author(1, 1,"Joe","Bloogs");
 
-        output +="Quick Test Run\n"+L1.toString();
-        output += "\n\nTest Run 2 \n"+L2.toString();
+        output +="Quick Test Run\n"+L1+B1+A1;
+        output += "\n\nTest Run 2 \n"+L2+B2+A2;
         JOptionPane.showMessageDialog(null,output,"Testing 1...2...3...",JOptionPane.INFORMATION_MESSAGE);
 
         //Uncomment the code below when you have the Author class written
